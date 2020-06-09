@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+  }
+  
+  nav ul li {
+    margin: 0 20px;
+  }
+
+  .nav-link {
+    font-family: 'Nunito Sans', sans-serif;;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #828282;
+    text-decoration: none;
+  }
+
+  .logo{
+    width: 200px;
+    height: 58.11px;
+  }
+
+.first-half{
+    background: url(./assests/background-2.jpg);
+    width: 1800px;
+    height: 446px;
+    left: 0px;
+    top: 93px;
+    text-align: center;
+}
+
+.text{
+    font-family:'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 84px;
+    line-height: 64px;
+    color: white;
+    padding-top: 100px;
+}
+
+.middle{
+    position: absolute;
+    margin-top: -370px;
+    padding-left: 570px;
+    z-index: 1;
+}
+
+.second-half{
+    background: #F7E5F3;
+    height: 475px;
+    text-align: center;
+}
+
+.second-half p{
+    width: 641px;
+    height: 45px;
+    padding-left: 600px;
+    padding-top: 150px;
+    font-size: 18px;
+    line-height: 35px;  
+    color: #000000;
+    font-family: 'Nunito sans',sans-serif;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    justify-content: center;
+    text-decoration-line: underline;
+    color: #823E8B;
+    opacity: 0.7;
+    font-family: 'Nunito sans',sans-serif;
+}
+
+.space{
+    flex: 0.05;
+}
+
+.footer{
+   background: url(./assests/footer.png);
+   height: 65px;
+   text-align: center;
+   padding-top: 22px;
+   font-family: 'Raleway', sans-serif;
+}
+
+.footer a{
+    color: white;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;   
+}
+
+.button{
+    width: 156px;
+    height: 57px;
+    margin-top: 30px;
+    margin-left: 20px;
+    border: 2px solid #823E8B;
+    box-sizing: border-box;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+    color: #3C252A;
+    font-weight: bold;
+    font-size: 24px;
+    background: #F7E5F3;
+    font-family: 'Josefin Sans', sans-serif;
+}
